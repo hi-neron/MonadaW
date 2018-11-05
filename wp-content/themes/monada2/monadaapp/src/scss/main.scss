@@ -1,0 +1,28 @@
+//purecss
+@import '~purecss/build/base-min.css';
+@import '~purecss/build/grids-min.css';
+@import '~purecss/build/grids-responsive-min.css';
+
+// custom
+@import './libs/colors';
+@import './libs/fonts';
+@import './libs/_fontello-embedded';
+@import './libs/swiper-min';
+
+
+
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+    /* Set your content font stack here: */
+    font-family: "Ancizar Sans Light", "Avenir", "Trebuchet MS", "Arial", sans-serif;
+}
+
+body {
+  font-family: "Ancizar Sans Light", "Avenir", "Trebuchet MS", "Arial", sans-serif;
+  background-color: $background !important;
+}
+
+.no-scroll {
+  overflow: hidden !important;
+}
+

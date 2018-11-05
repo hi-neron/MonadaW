@@ -1,0 +1,39 @@
+// main
+$background : #ececec;
+$backgroundP : rgb(252, 252, 252);
+
+$color: #292929;
+$color2: #202020;
+$secondaryColor: #f7931e;
+$secondaryColor2: #ffa938;
+$secondaryColor3: #ffd255;
+
+$thirdColor: #779FA1;
+
+$fastMenuBack: $color;
+$fastMenuColor: $background;
+
+$secondaryColorGradient: $secondaryColor;
+
+@mixin gradient {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7931e+0,e56a1d+29,f7931e+70,e8681e+98 */
+   background: #f7931e; /* Old browsers */
+   background: -moz-linear-gradient(-45deg, #ffb649 0%, #e56a1d 29%, #ffb649 70%, #e8681e 98%); /* FF3.6-15 */
+   background: -webkit-linear-gradient(-45deg, #ffb649 0%,#e56a1d 29%,#ffb649 70%,#e8681e 98%); /* Chrome10-25,Safari5.1-6 */
+   background: linear-gradient(135deg, #ffb649 0%,#e56a1d 29%,#ffb649 70%,#e8681e 98%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb649', endColorstr='#e8681e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+ }
+
+@mixin gradient_b {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#303030+0,7a7a7a+21,303030+52,5b5b5b+82,303030+100 */
+  background: #303030; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #303030 0%, #7a7a7a 21%, #303030 52%, #5b5b5b 82%, #303030 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #303030 0%,#7a7a7a 21%,#303030 52%,#5b5b5b 82%,#303030 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #303030 0%,#7a7a7a 21%,#303030 52%,#5b5b5b 82%,#303030 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#303030', endColorstr='#303030',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+ }
+
+@mixin parallax {
+  // background-image: url('http://localhost:8888/wp-content/uploads/2018/10/img-noise-300x3001.png');
+  background-attachment: fixed;
+ }
